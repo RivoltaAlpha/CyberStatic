@@ -14,7 +14,7 @@ const newsData: NewsItem[] = [
     id: 1,
     title: "Cybersecurity Workshop",
     description: "Join us for an intensive hands-on workshop on advanced cybersecurity techniques. as well as other cybersecurity related topics.",
-    imageUrl: "/images/workshop.png"
+    imageUrl: "https://i.postimg.cc/5NxPHNjf/workshop.png"
   },
   {
     id: 2,
@@ -26,13 +26,13 @@ const newsData: NewsItem[] = [
     id: 3,
     title: "Community Engagement ",
     description: "We're have been part of several events hosted in Universities and have worked together with Computer Society of Kirinyaga to empower an educate students on several technologies.",
-    imageUrl: "/images/community.jpg"
+    imageUrl: "https://i.postimg.cc/fTfgRSKz/community.jpg"
   },
   {
     id: 4,
     title: "Our Success Story",
     description: "Our founders are recognized leaders in cybersecurity and software development, earning prestigious awards for their groundbreaking contributions. Their vision and expertise drive our mission to deliver top-tier training programs.",
-    imageUrl: "/images/award-winning-team.jpg"
+    imageUrl: "https://i.postimg.cc/SRmGzDSg/award-winning-team.jpg"
   }
 ];
 

@@ -1,10 +1,9 @@
 import React from 'react';
-import backgroundImage from '/images/background.png'; // Replace with your actual image path
 
 const CTFPlatform: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col" style={{
-      backgroundImage: `url(${backgroundImage})`,
+      backgroundImage: `url(https://i.postimg.cc/SKPm1v2v/background.png)`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
     }}>

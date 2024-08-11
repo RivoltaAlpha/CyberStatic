@@ -73,7 +73,7 @@ const SoftwareEngPage = () => {
           
           <div className="relative h-96 overflow-hidden">
             <img 
-              src="/images/software.jpg" 
+              src="https://i.postimg.cc/5yJsSf3q/software.jpg" 
               alt="Software Engineering Banner" 
               className="absolute inset-0 w-full h-full object-cover"
             />
