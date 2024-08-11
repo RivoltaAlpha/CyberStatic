@@ -29,7 +29,7 @@ const HeroSection: React.FC = () => {
     const settings = {
       dots: true,
       infinite: true,
-      speed: 500,
+      speed: 3000,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
@@ -41,17 +41,17 @@ const HeroSection: React.FC = () => {
       <Slide
         title="Who we are"
         description="Cyber eyes networks its a startup founded by young innovators looking to help in bridging students in cyber security majorly and other tech stacks looking forward to skilling together."
-        imageUrl='/images/image1.jpg'
+        imageUrl='https://i.postimg.cc/t4B8Rn50/image2.jpg'
       />
       <Slide
         title="Vision"
         description=" To be the premier technical computer security collective in the region."
-        imageUrl='/images/image2.jpg'
+        imageUrl='https://i.postimg.cc/5NqZGRQ2/image1.jpg'
       />
             <Slide
         title="Mission"
         description="With core values deeply rooted in cybersecurity excellence, coding innovation, and community empowerment, Cyber Eyes Networks emerged as a technology hub that brings a unique blend of expertise, creativity, and a steadfast commitment to ethical practices. "
-        imageUrl='/images/ctfbackground.png'
+        imageUrl='https://www.tokiomarinehighland.com/wp-content/uploads/2022/05/Kiran-CIO-of-the-Year-Web-Header.jpg'
       />
     </Slider>
   );
