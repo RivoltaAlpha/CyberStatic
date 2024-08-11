@@ -22,25 +22,25 @@ const ProgramsSection: React.FC = () => {
     {
       title: "Networking",
       description: "Empowering the next generation of innovators through hands-on knowledge and experiences.",
-      imageUrl: "/images/Server-bro.png",
+      imageUrl: "https://i.postimg.cc/8chXW7gb/Server-bro.png",
       buttonText: "Explore Program"
     },
     {
       title: "Cyber Security",
       description: "Providing a safe and secure technological environment for all members of the community.",
-      imageUrl: "/images/cyber.jpg",
+      imageUrl: "https://i.postimg.cc/xCvRCW2k/cyber.jpg",
       buttonText: "Join Us"
     },
     {
       title: "Software Engineering",
       description: "Enhancing technical skills and knowledge for job readiness. For the Software Engineers we have several reading materials and a curriculum in place that will guide you through your learning journey. Our Team has experts who can help you with advancing your skills and knowledge.",
-      imageUrl: "/images/software.jpg",
+      imageUrl: "https://i.postimg.cc/5yJsSf3q/software.jpg",
       buttonText: "Explore Program"
     },
     {
       title: "Learning and Development",
       description: "Acquire skills through our learning and development materials. we have many learning materials available. This includes writeups that contain begginer friendly resources. We also have a team of experts who can help you with your queries.",
-      imageUrl: "/images/innovation.png",
+      imageUrl: "https://i.postimg.cc/901YPZzC/innovation.png",
       buttonText: "Join Us"
     }
   ];
