@@ -29,7 +29,7 @@ const HeroSection: React.FC = () => {
     const settings = {
       dots: true,
       infinite: true,
-      speed: 3000,
+      speed: 4000,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
