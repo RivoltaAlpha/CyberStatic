@@ -9,6 +9,12 @@ const Footer: React.FC = () => {
     { Icon: FaGithub, url: 'https://github.com/orgs/Cyber-Eyes-Networks' },
     { Icon: FaMediumM, url: 'https://medium.com/@Cyber_Eyes_Networks' },
   ];
+  const quickLinks = [
+    { label: 'Home', url: '/' },
+    { label: 'About', url: '/about-us' },
+    { label: 'Contact', url: '/contact-us' },
+    { label: 'ctf Page', url: '/CTFPlatform' },
+  ]  
 
   return (
     <footer className="bg-gray-400 py-8">
@@ -42,10 +48,10 @@ const Footer: React.FC = () => {
           {/* Quick Links */}
           <div className="w-full md:w-1/4">
             <h3 className="text-xl font-bold mb-2">Quick Links</h3>
-            <ul>
-              {['About', 'Support Us', 'Contact', 'Events'].map((link) => (
-                <li key={link} className="mb-1">
-                  <a href="#" className="text-sm hover:underline">{link}</a>
+            <ul className='flex flex-col items-center'>
+              {quickLinks.map(({label, url}, index)  => (
+                <li key={index} className="mb-1">
+                  <a href={url} className="text-sm hover:text-gray-800">{label}</a>
                 </li>
               ))}
             </ul>
