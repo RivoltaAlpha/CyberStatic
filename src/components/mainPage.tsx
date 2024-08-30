@@ -20,28 +20,32 @@ const ProgramsSection: React.FC = () => {
 
   const programs = [
     {
-      title: "Networking",
-      description: "Empowering the next generation of innovators through hands-on knowledge and experiences.",
-      imageUrl: "https://i.postimg.cc/8chXW7gb/Server-bro.png",
-      buttonText: "Explore Program"
-    },
-    {
       title: "Cyber Security",
       description: "Providing a safe and secure technological environment for all members of the community.",
       imageUrl: "https://i.postimg.cc/xCvRCW2k/cyber.jpg",
-      buttonText: "Join Us"
+      buttonText: "Join Us",
+      programLink: "/cyber-security"
     },
     {
       title: "Software Engineering",
       description: "Enhancing technical skills and knowledge for job readiness. For the Software Engineers we have several reading materials and a curriculum in place that will guide you through your learning journey. Our Team has experts who can help you with advancing your skills and knowledge.",
       imageUrl: "https://i.postimg.cc/5yJsSf3q/software.jpg",
-      buttonText: "Explore Program"
+      buttonText: "Explore Program",
+      programLink: "/software-engineering"
     },
     {
       title: "Learning and Development",
-      description: "Acquire skills through our learning and development materials. we have many learning materials available. This includes writeups that contain begginer friendly resources. We also have a team of experts who can help you with your queries.",
+      description: "Acquire skills through our learning and development materials. we have many begginer friendly resources. We also have practice exercises that will help you prepare for the CTF.",
       imageUrl: "https://i.postimg.cc/901YPZzC/innovation.png",
-      buttonText: "Join Us"
+      buttonText: "Join Us",
+      programLink: "/CTFPlatform"
+    },
+    {
+      title: "Networking",
+      description: "Empowering the next generation of innovators through hands-on knowledge and experiences.",
+      imageUrl: "https://i.postimg.cc/8chXW7gb/Server-bro.png",
+      buttonText: "Explore Program",
+      programLink: "/academy"
     }
   ];
 
@@ -60,7 +64,13 @@ const ProgramsSection: React.FC = () => {
             <div className="md:w-1/2 p-8">
               <h2 className="text-4xl font-bold mb-4">{program.title}</h2>
               <p className='text-lg'>{program.description}</p>
-              <button className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              <button
+                className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                onClick={() => {
+                  // Navigate to the link
+                  window.location.href = program.programLink;
+                }}
+              >
                 {program.buttonText}
               </button>
             </div>
