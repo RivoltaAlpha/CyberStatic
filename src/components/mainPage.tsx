@@ -21,28 +21,28 @@ const ProgramsSection: React.FC = () => {
   const programs = [
     {
       title: "Cyber Security",
-      description: "Providing a safe and secure technological environment for all members of the community.",
+      description: " Learn about the different aspects of Cyber Security. Our team of experts will help you understand the key concepts and technologies used in Cyber Security. We have a variety of resources to guide you through your learning journey. Utilize these resources to learn and advance your Tech career ",
       imageUrl: "https://i.postimg.cc/xCvRCW2k/cyber.jpg",
-      buttonText: "Join Us",
+      buttonText: "Explore Program Resources",
       programLink: "/cyber-security"
     },
     {
       title: "Software Engineering",
-      description: "Enhancing technical skills and knowledge for job readiness. For the Software Engineers we have several reading materials and a curriculum in place that will guide you through your learning journey. Our Team has experts who can help you with advancing your skills and knowledge.",
+      description: "Enhancing technical skills and knowledge for job readiness. For the Software Engineers we have several reading materials and a curriculum in place that will guide you through your learning journey. Our Team has experts who can help you with advancing your skills and knowledge. You can utilize these resources to learn and advance your Tech career ",
       imageUrl: "https://i.postimg.cc/5yJsSf3q/software.jpg",
-      buttonText: "Explore Program",
+      buttonText: "Explore Program Resources",
       programLink: "/software-engineering"
     },
     {
       title: "Learning and Development",
       description: "Acquire skills through our learning and development materials. we have many begginer friendly resources. We also have practice exercises that will help you prepare for the CTF.",
       imageUrl: "https://i.postimg.cc/901YPZzC/innovation.png",
-      buttonText: "Join Us",
+      buttonText: "Start Practicing",
       programLink: "/CTFPlatform"
     },
     {
       title: "Networking",
-      description: "Empowering the next generation of innovators through hands-on knowledge and experiences.",
+      description: "Empowering the next generation of innovators through hands-on knowledge and experiences. We have a wide variety of resources that will help you understand the key concepts and technologies used in Networking. Utilize these resources to learn and advance your Networking career ",
       imageUrl: "https://i.postimg.cc/8chXW7gb/Server-bro.png",
       buttonText: "Explore Program",
       programLink: "/academy"
