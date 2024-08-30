@@ -10,6 +10,7 @@ import CybersecurityPage from './pages/cyberSec';
 import SoftwareEng from './pages/software-eng';
 import NewsHub from './pages/newsHub';
 import CTFPlatform from './pages/ctfPage';
+import NetworkingPage from './pages/academy';
 
 const App: React.FC = () => {
   return (
@@ -26,9 +27,9 @@ const App: React.FC = () => {
             <Route path="/cyber-security" element={<CybersecurityPage />} />
             <Route path="/software-engineering" element={<SoftwareEng />} />
             <Route path="/newsHub" element={<NewsHub />} />
+            <Route path="/academy" element={<NetworkingPage />} />
             {/* <Route path="/articles" element={<ArticlePage />} /> */}
             {/* <Route path="/admin-dashboard" element={<AdminDashboard />} />
-            <Route path="/academy" element={<Materials />} />
             <Route path="/user-dashboard" element={<UserDashboard />} />
             <Route path="*" element={<Error />} />  */}
           </Routes>
