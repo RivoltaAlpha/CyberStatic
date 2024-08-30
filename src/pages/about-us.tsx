@@ -125,11 +125,11 @@ const About: React.FC = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Support Us</h2>
         {/* Support Card 1 */}
         <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden">
-          <img src="https://i.postimg.cc/9Qw9jLpN/support-card-1.jpg" alt="Support Card 1" className="w-full h-48 object-cover" />
-          <div className="p-4">
+          <img src="https://i.postimg.cc/50LPzXw2/logo.jpg" alt="Support Card 1" className="w-full h-48 object-cover" />
+          <div className="p-4 justify-center flex flex-col items-center">
             <h3 className="text-xl font-bold mb-2">Donate</h3>
             <p className="mb-4">Donate to Cyber Eyes Networks</p>
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">Donate</button>
+            <button className="bg-yellow-600 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Support Us</button>
           </div>
         </div>
       </div>
