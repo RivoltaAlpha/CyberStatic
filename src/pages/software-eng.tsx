@@ -28,12 +28,11 @@ const SoftwareEngPage = () => {
       "link": "https://learn.microsoft.com/en-us/training/paths/beginner-java/"
     },
     {
-      title: "Getting started with Git and Github ",
-      description: "Git and Github are essential tools for software development. Here are some common commands and how to use them.",
-      imageUrl: "https://th.bing.com/th/id/OIP.N2A89Kvz4PMLfkYBBqgcOAHaEK?rs=1&pid=ImgDetMain",
-      link: "https://charityjelimo.hashnode.dev/getting-started-with-git-and-github",
+      "title": "Getting started with Git and Github ",
+      "description": "Git and Github are essential tools for software development. Here are some common commands and how to use them.",
+      "imageUrl": "https://th.bing.com/th/id/OIP.N2A89Kvz4PMLfkYBBqgcOAHaEK?rs=1&pid=ImgDetMain",
+      "link": "https://charityjelimo.hashnode.dev/getting-started-with-git-and-github",
     },
-
     {
       "title": "Introduction to Python",
       "description": "Dive into Python, a popular and beginner-friendly programming language. This path covers the basics of Python programming, including syntax, data structures, and building simple applications.",
