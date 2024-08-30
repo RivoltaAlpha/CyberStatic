@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
   const quickLinks = [
     { label: 'Home', url: '/' },
     { label: 'About', url: '/about-us' },
-    { label: 'Contact', url: '/contact-us' },
+    { label: 'Contact', url: '/contact' },
     { label: 'ctf Page', url: '/CTFPlatform' },
   ]
 
