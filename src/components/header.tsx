@@ -10,7 +10,7 @@ export const Header: React.FC = () => {
 
   return (
     <header className="bg-black text-yellow-500">
-      <nav className="container mx-auto px-6 py-3 flex flex-wrap justify-between items-center">
+      <nav className="container mx-auto  py-3 flex flex-wrap justify-between items-center">
         <div className="text-xl font-bold">
           Cyber-Eyes Networks
         </div>
@@ -40,9 +40,7 @@ export const Header: React.FC = () => {
             </svg>
           </button>
         </div>
-        <div
-          className={`w-full lg:flex lg:items-center lg:w-auto ${isOpen ? 'block' : 'hidden'}`}
-        >
+        <div className={`w-full lg:flex justify-evenly lg:items-center lg:w-auto ${isOpen ? 'block' : 'hidden'}`}>
           <div className="flex flex-col lg:flex-row lg:items-center lg:space-x-2">
             <NavLink to="/" className="text-yellow-500 hover:text-white px-3 py-2">
               Home
@@ -62,9 +60,9 @@ export const Header: React.FC = () => {
             <NavLink to="/newsHub" className="text-yellow-500 hover:text-white px-3 py-2">
               News Hub
             </NavLink>
-            {/* <NavLink to="/materials" className="text-yellow-500 hover:text-white px-3 py-2">
-              Academy
-            </NavLink> */}
+            <NavLink to="/academy" className="text-yellow-500 hover:text-white px-3 py-2">
+              Network Academy
+            </NavLink>
             <NavLink to="/contact" className="text-yellow-500 hover:text-white px-3 py-2">
               <button className="bg-yellow-500 hover:bg-yellow-600 text-white lg:font-bold py-2 px-4 rounded">
                 Contact Us
