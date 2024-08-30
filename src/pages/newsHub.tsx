@@ -40,7 +40,7 @@ const NewsHub: React.FC = () => {
   return (
     <div className=" mx-auto px-4 bg-gray-900 text-white py-8">      
       <div className=" rounded-lg p-6">
-        <h2 className="text-3xl font-bold mb-4">News & Events</h2>
+        <h2 className="text-3xl flex justify-center font-bold mb-4">News & Events</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {newsData.map((item) => (
             <div key={item.id} className="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
