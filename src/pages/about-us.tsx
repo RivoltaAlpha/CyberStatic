@@ -114,17 +114,32 @@ const About: React.FC = () => {
           </div>
         </div>
 
+
+        {/* Support us Section */}
+        <div className="my-10 container mx-auto px-4 mb-0">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Support Us</h2>
+            {/* Support Card 1 */}
+            <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden">
+              <img src="https://i.postimg.cc/9Qw9jLpN/support-card-1.jpg" alt="Support Card 1" className="w-full h-48 object-cover" />
+              <div className="p-4">
+                <h3 className="text-xl font-bold mb-2">Donate</h3>
+                <p className="mb-4">Donate to Cyber Eyes Networks</p>
+                <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">Donate</button>
+              </div>
+            </div>
+        </div>
+
         {/* Meet Our Team Section */}
-        <div className="my-10 container mx-auto px-4">
+        <div className="my-10 container mx-auto px-4 mb-0">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Meet Our Team</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
             {/* Team Member 1 */}
-            <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden">
+            <div className="bg-gray-800 shadow-lg mb-10  rounded-lg overflow-hidden">
               <img src='https://i.postimg.cc/mr0XhY1n/karanja.jpg' alt="Team Member 1" className="w-full h-48 object-cover" />
               <div className="p-4">
                 <h3 className="text-xl font-bold mb-2">Brian Karanja</h3>
                 <p className="mb-4">CEO & Founder</p>
-                <div className='flex space-x-4'>
+                <div className='flex space-x-4 justify-evenly'>
                   <a href="https://www.linkedin.com/in/brian-karanja-cyb3r-arson/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
                     <FaLinkedin size={24} />
                   </a>
@@ -142,12 +157,12 @@ const About: React.FC = () => {
             </div>
 
             {/* Team Member 2 */}
-            <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden">
+            <div className="bg-gray-800 shadow-lg mb-10 rounded-lg overflow-hidden">
               <img src='https://i.postimg.cc/HsDfxg12/brian.jpg' alt="Team Member 2" className="w-full h-48 object-cover" />
               <div className="p-4">
                 <h3 className="text-xl font-bold mb-2">Brian Ndegwa</h3>
                 <p className="mb-4">CTO</p>
-                <div className='flex space-x-4'>
+                <div className='flex space-x-4 justify-evenly'>
                   <a href="https://www.linkedin.com/in/ndegwaofficial/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
                     <FaLinkedin size={24} />
                   </a>
@@ -159,12 +174,12 @@ const About: React.FC = () => {
             </div>
 
             {/* Team Member 3 */}
-            <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden">
+            <div className="bg-gray-800 shadow-lg rounded-lg mb-10 overflow-hidden">
               <img src='https://i.postimg.cc/zDwtXRzd/tiffany.jpg' alt="Team Member 3" className="w-full h-48 object-cover" />
               <div className="p-4">
                 <h3 className="text-xl font-bold mb-2">Mwaniki Tifany</h3>
                 <p className="mb-4">Lead Developer</p>
-                <div className='flex space-x-4'>
+                <div className='flex space-x-4 justify-evenly'>
                   <a href="https://www.linkedin.com/in/mwanikitifany" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
                     <FaLinkedin size={24} />
                   </a>
@@ -176,13 +191,13 @@ const About: React.FC = () => {
             </div>
 
             {/* Team Member 4 */}
-            <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden">
+            <div className="bg-gray-800 shadow-lg rounded-lg mb-10 overflow-hidden">
               <img src='https://i.postimg.cc/DwwYNyKx/jess.png' alt="Team Member 4" className="w-full h-48 object-cover" />
               <div className="p-4">
                 <h3 className="text-xl font-bold mb-2">Jessica Mbithi</h3>
                 <p className="mb-4">Cybersecurity Specialist</p>
-                <div className='flex space-x-4'>
-                  <a href="https://www.linkedin.com/in/sarahbrown" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
+                <div className='flex space-x-4 justify-evenly'>
+                  <a href="https://www.linkedin.com/in/jess-mbithi/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
                     <FaLinkedin size={24} />
                   </a>
                   <a href="https://x.com/JessMbithi" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
@@ -193,12 +208,12 @@ const About: React.FC = () => {
             </div>
 
             {/* Team Member 5 */}
-            <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden">
+            <div className="bg-gray-800 shadow-lg rounded-lg mb-10 overflow-hidden">
               <img src='https://i.postimg.cc/R03pMshf/lilian.jpg' alt="Team Member 5" className="w-full h-48 object-cover" />
               <div className="p-4">
                 <h3 className="text-xl font-bold mb-2">Lilian Wanjiku</h3>
                 <p className="mb-4">Campus Ambassador</p>
-                <div className='flex space-x-4'>
+                <div className='flex space-x-4 justify-evenly'>
                   <a href="https://www.linkedin.com/in/lilintech" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
                     <FaLinkedin size={24} />
                   </a>
