@@ -1,5 +1,5 @@
 import React from 'react';
-import {  FaLinkedinIn, FaTwitter, FaGithub, FaMediumM } from 'react-icons/fa';
+import { FaLinkedinIn, FaTwitter, FaGithub, FaMediumM } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 
 const Footer: React.FC = () => {
@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
     { label: 'About', url: '/about-us' },
     { label: 'Contact', url: '/contact-us' },
     { label: 'ctf Page', url: '/CTFPlatform' },
-  ]  
+  ]
 
   return (
     <footer className="bg-gray-400 py-8">
@@ -24,8 +24,8 @@ const Footer: React.FC = () => {
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h3 className="text-xl font-bold mb-2">Cyber Eyes Networks</h3>
             <p className="text-sm">Reach Us at</p>
-            <p className="text-sm mt-2">info@cybereyesnetworks.co.ke</p>
-            <p className="text-sm">Phone: 0704918691 <br/> 0741669984 </p>
+            <p className="text-sm mt-2"><strong>Email: </strong>info@cybereyesnetworks.co.ke</p>
+            <p className="text-sm"><strong>Phone: </strong> 0704918691 / 0741669984 </p>
           </div>
 
           {/* Newsletter Signup */}
@@ -47,9 +47,9 @@ const Footer: React.FC = () => {
 
           {/* Quick Links */}
           <div className="w-full md:w-1/4">
-            <h3 className="text-xl font-bold mb-2">Quick Links</h3>
+            <h3 className="text-xl font-bold mb-2 ml-[150px]">Quick Links</h3>
             <ul className='flex flex-col items-center'>
-              {quickLinks.map(({label, url}, index)  => (
+              {quickLinks.map(({ label, url }, index) => (
                 <li key={index} className="mb-1">
                   <a href={url} className="text-sm hover:text-gray-800">{label}</a>
                 </li>
@@ -59,18 +59,22 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Social Media Icons */}
-        <div className="flex justify-center mt-8 space-x-4">
-          {socialLinks.map(({ Icon, url }, index) => (
-            <a 
-              key={index} 
-              href={url} 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="text-gray-600 hover:text-gray-800"
-            >
-              <Icon size={20} />
-            </a>
-          ))}
+        <div className='flex flex-col items-center'>
+          <div className="flex justify-center mt-2 space-x-4">
+            {socialLinks.map(({ Icon, url }, index) => (
+              <a
+                key={index}
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-black hover:text-gray-800"
+              >
+                <Icon size={20} />
+              </a>
+            ))}.
+          </div>
+            {/* all rights reserved  @Cyber-Eyes-Networks*/}
+          <p className="text-black mt-4">All rights reserved @cybereyesnetworks</p>
         </div>
       </div>
     </footer>
