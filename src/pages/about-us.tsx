@@ -121,9 +121,9 @@ const About: React.FC = () => {
 
 
       {/* Support us Section */}
-      <div className="my-10 container mx-auto px-4 mb-0">
+      {/* <div className="my-10 container mx-auto px-4 mb-0">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Support Us</h2>
-        {/* Support Card 1 */}
+        <div className='grid grid-cols-3 gap-4'>
         <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden">
           <img src="https://i.postimg.cc/50LPzXw2/logo.jpg" alt="Support Card 1" className="w-full h-48 object-cover" />
           <div className="p-4 justify-center flex flex-col items-center">
@@ -132,7 +132,22 @@ const About: React.FC = () => {
             <button className="bg-yellow-600 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Support Us</button>
           </div>
         </div>
-      </div>
+        <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden">
+          <div className="p-4 justify-center flex flex-col items-center">
+            <h3 className="text-xl font-bold mb-2">Donate</h3>
+            <p className="mb-4">Donate to Cyber Eyes Networks</p>
+            <button className="bg-yellow-600 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Support Us</button>
+          </div>
+        </div>
+        <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden">
+          <div className="p-4 justify-center flex flex-col items-center">
+            <h3 className="text-xl font-bold mb-2">Donate</h3>
+            <p className="mb-4">Donate to Cyber Eyes Networks</p>
+            <button className="bg-yellow-600 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Support Us</button>
+          </div>
+        </div>
+        </div>
+      </div> */}
 
       {/* Meet Our Team Section */}
       <div className="my-10 container mx-auto px-4 mb-0">
